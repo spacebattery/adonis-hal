@@ -20,6 +20,7 @@ class HalProvider extends ServiceProvider {
   }
 
   * register () {
+    this.app.singleton('Adonis/Resp/Hal', () => undefined);
   }
 }
 
