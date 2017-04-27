@@ -1,0 +1,47 @@
+{
+  "name": "adonis-hal",
+  "version": "0.0.0-semantically-released",
+  "description": "Simple HAL serialization for adonisjs.",
+  "scripts": {
+    "precommit": "npm run lint",
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg",
+    "lint": "semistandard",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaromev/adonis-hal.git"
+  },
+  "keywords": [
+    "adonisjs",
+    "hal"
+  ],
+  "author": "Zaro Megagenta <zaro.megagenta@gmail.com> (https://github.com/zaromev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaromev/adonis-hal/issues"
+  },
+  "homepage": "https://github.com/zaromev/adonis-hal#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.3",
+    "semantic-release": "^6.3.2",
+    "semistandard": "^11.0.0",
+    "validate-commit-msg": "^2.12.1"
+  },
+  "peerDependencies": {
+    "adonis-fold": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "semistandard": {
+    "global": [
+      "use"
+    ]
+  }
+}
