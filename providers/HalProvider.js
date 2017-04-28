@@ -23,8 +23,8 @@ class HalProvider extends ServiceProvider {
 
   * register () {
     this.app.singleton('Adonis/Resp/Hal', function (app) {
-      const HalTransformer = require('../src/HalTransformer');
-      return new HalTransformer();
+      const HalMiddleware = require('../src/HalMiddleware');
+      return new HalMiddleware();
     });
   }
 }
