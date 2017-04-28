@@ -3,6 +3,7 @@
 class HalTransformer {
   * transform (str) {
     console.log('str', str);
+
     return str;
   }
 }
