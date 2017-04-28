@@ -32,7 +32,8 @@
     "validate-commit-msg": "^2.12.1"
   },
   "peerDependencies": {
-    "adonis-fold": "^3.0.3"
+    "adonis-fold": "^3.0.3",
+    "adonis-framework": "^3.0.13"
   },
   "config": {
     "commitizen": {
