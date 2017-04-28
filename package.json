@@ -35,6 +35,9 @@
     "adonis-fold": "^3.0.3",
     "adonis-framework": "^3.0.13"
   },
+  "publishConfig": {
+    "tag": "next"
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
